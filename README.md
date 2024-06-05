@@ -25,9 +25,9 @@ Under the hood, the two devices communicate with each other over Wi-Fi and a MQT
 
 ## How to use
 
-- Prepare two M5Stack Core2 devices.
+- Prepare two M5Stack Core2 devices and a MQTT broker.
 - Follow [this guide](https://docs.m5stack.com/en/uiflow/uiflow_web) to set up UIFlow on those devices. This includes the following steps.
-  - Install M5Burner tool on your development PC.
+  - Install the M5Burner tool on your development PC.
   - Burn the `UIFlow_Core2` firmware on the devices (see the [manual](https://docs.m5stack.com/en/uiflow/m5core2/program)). You should also configure Wi-Fi settings at this step.
 - Access UIFlow service ( https://flow.m5stack.com ) by your development PC.
 - Open [quick-answer.m5f](quick-answer.m5f) file.
@@ -39,10 +39,7 @@ Under the hood, the two devices communicate with each other over Wi-Fi and a MQT
   - `mqtt_user_name`: the user name for accessing the MQTT server.
   - `mqtt_password`: the password for accessing the MQTT server.
 - Download the firmware into your device.
-
-TODO: tasks for your partner's device.
-
-
+- Swap `mqtt_client_id` and `partner_client_id` and download the firmware into your partner's device.
 
 ## Author
 
