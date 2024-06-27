@@ -19,7 +19,11 @@ Each device has two buttons ("O" and "X") on the lower side of the screen.
 
 When you press the button, your intension is shown in your partner's device (in the upper side of the screen.)
 
-When you don't touch the button for a while, both buttons will go back to grey. Your partner's device will show "?", meaning that your intension is unknown.
+By default, when you don't touch the button for a while, both buttons will go back to grey. Your partner's device will show "?", meaning that your intension is unknown.
+
+The above behavior is changed if you check the "Keep" box by pressing it.
+If the "Keep" box is checked, the buttons won't go back to grey automatically, but they keep its current state.
+If you want to reset the button's state, just press it again.
 
 Under the hood, the two devices communicate with each other over Wi-Fi and a MQTT broker.
 
